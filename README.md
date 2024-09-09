@@ -10,7 +10,7 @@ In this project, we are going to create a VPC that can use for servers in a prod
 
 <h2>Program walk-through:</h2>
 This is the high level overview of what we are going to setup in this Project Lab:
-<img src="https://github.com/jpap19/VPC-Project-In-Production/tree/main/Images" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
+<img src="(https://github.com/jpap19/VPC-Project-In-Production/blob/main/Images/Design.png)" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
