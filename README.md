@@ -8,7 +8,8 @@ In this project, we are going to create a VPC that can use for servers in a prod
 
 - <b>docs.aws.amazon.com</b> https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html
 
-<h2>Program walk-through:</h2>
+<h2>Program walk-through Implementation:</h2>
+
 This is the high level overview of what we are going to setup in this Project Lab:
 <img src="(https://github.com/jpap19/VPC-Project-In-Production/blob/main/Images/Design.png)" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
@@ -25,9 +26,6 @@ STEP 2:  Deploy the application using Amazon EC2 Auto Scaling.
 STEP 3:  Test the configuration.
 
 STEP 4: Clean up
-
-
-<h2>Program walk-through Implementation:</h2>
 
 STEP 1 Set up a free Elastic account and Install the Kali VM:
 
