@@ -9,22 +9,24 @@ In this project, we are going to create a VPC that can use for servers in a prod
 - <b>docs.aws.amazon.com</b> https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html
 
 <h2>Program walk-through:</h2>
+This is the high level overview of what we are going to setup in this Project Lab:
+
+<img src="https://github.com/jpap19/VPC-Project-In-Production/tree/main/Images" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
+<br />
+<br />
 
 <p align="center">
  
- The links provided here above can be used to download required softwares. The implementation will be in done in 6 Steps:
+The implementation will be in done in 4 Steps:
 
-STEP 1: Set up a free Elastic account and Install the Kali VM.
+STEP 1:  Create and Configure the VPC, Configure the subnets, NAT gateways, VPC endpoints, and Enable DNS hostnames.
 
-STEP 2: Configure the Elastic Agent on the Linux VM to collect the logs and forward it to the SIEM.
+STEP 2:  Deploy the application using Amazon EC2 Auto Scaling.
 
-STEP 3: Generate security events on the Kali VM.
+STEP 3:  Test the configuration.
 
-STEP 4: Query to find the security events in the Elastic SIEM.
+STEP 4: Clean up
 
-STEP 5: Create a Dashboard to visualize security events.
-
-STEP 6: Create alerts for security events.
 
 <h2>Program walk-through Implementation:</h2>
 
@@ -39,7 +41,7 @@ Wait for the configuration to complete. Once the deployment is ready, click “c
 
 1.1.1 Free Elastic account set up  and Deployment created: <br/>
 
-<img src="https://github.com/jpap19/A-Simple-Elastic-SIEM-Lab/blob/main/Images/FreeAccountCreated.png" height="150%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="(https://github.com/jpap19/VPC-Project-In-Production/tree/main/Images)" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 1.2 Installation and setting up of Kali VM: <br/>
