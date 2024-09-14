@@ -12,7 +12,7 @@ In this project, we are going to create a VPC that can be used for servers in a 
 
 The implementation will be in done in 4 Steps:
 
-STEP 1:  Create and Configure the VPC, with subnets, route tables.
+STEP 1:  Create and Configure the VPC, with subnets, route tables, NAT gateways.
 
 STEP 2:  Deploy the application using Amazon EC2 Auto Scaling.
 
@@ -32,7 +32,7 @@ This diagram provides an overview of the resources included in this project. The
 
 <h2>Project  Implementation:</h2>
  
-STEP 1:  Create and Configure the VPC, with subnets, route tables.
+STEP 1:  Create and Configure the VPC, with subnets, route tables, NAT gateways.
 
 1.1 Create and Configure the VPC: <br/>
 
